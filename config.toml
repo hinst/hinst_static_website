@@ -1,0 +1,8 @@
+BaseURL = "http://hinst.tk/"
+languageCode = "en-us"
+title = "Hinst"
+theme = "bootie-docs"
+
+[params]
+author = "Alex Savinykh"
+description = "Personal website"
