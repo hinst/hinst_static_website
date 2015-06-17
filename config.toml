@@ -6,3 +6,4 @@ theme = "bootie-docs"
 [params]
 author = "Alex Savinykh"
 description = "Personal website"
+noCategoryLink = true
