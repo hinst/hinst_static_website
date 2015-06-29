@@ -1,7 +1,7 @@
 +++
 categories = ["en"]
 date = "2015-06-29T22:36:25+03:00"
-tags = ["document"]
+tags = ["en"]
 title = "About this website"
 +++
 
