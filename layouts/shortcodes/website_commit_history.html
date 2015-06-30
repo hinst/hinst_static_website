@@ -1,3 +1,16 @@
-<div id="commitHistory"></div>
+<div id="commitHistory" style="border-left-style: solid; margin-left: 3pt; padding-left: 3pt;">
+</div>
 <script type="text/javascript">
-</script>
+    var request = new XMLHttpRequest();
+    var READYSTATE_COMPLETE = 4;
+    request.open('GET', '/gitCommitHistory', true);
+    request.onreadystatechange = 
+        function() {
+            if (request.readyState == READYSTATE_COMPLETE) {
+                var responseText = request.responseText;
+                document.getElementById("commitHistory").innerHTML = responseText;
+            }
+        }
+    ;
+    request.send(null);
+</script>	
