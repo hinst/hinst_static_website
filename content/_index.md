@@ -9,5 +9,5 @@ title = "_index"
 ---
 
 {{< website_commit_history >}}
-Показаны 10 новейших правок | Displaying 10 most recent change sets
+Показаны 20 новейших правок | Displaying 20 most recent change sets
 
